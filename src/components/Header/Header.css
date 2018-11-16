@@ -2,3 +2,7 @@ header {
     background-color: yellow;
     color: black;
 }
+header h1 {
+    font-size: 300%;
+    font-family: 'Indie Flower', cursive;
+}

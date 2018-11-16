@@ -32,7 +32,7 @@ class Game extends Component {
         if (newScore >= this.state.topScore) {
             this.setState({ topScore: newScore });
         }
-        if (newScore === 6) {
+        if (newScore === 12) {
             alert("You win!");
         }
         this.handleShuffle(this.state.characters);
